@@ -1,0 +1,54 @@
+<!doctype html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Evidia </title>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        var onloadCallback = function() {
+            grecaptcha.render('html_element', {
+                'sitekey': '6Ld-ebMUAAAAANmjfFJhh2psE2_6j5F_vCBC6wrG'
+            });
+        };
+    </script>
+   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ <link rel="stylesheet" type="text/css" href="./style.css">
+<script src="./client.js"></script>
+</head>
+
+<body style="background-color:black;color:white;">
+
+    <div class="centered">
+
+        <h1 style="font-size:8rem;text-align:center;font-family: 'Lexend Deca', sans-serif;">
+    Evida
+  </h1>
+        <p style="text-align:center;font-family: 'Lexend Deca', sans-serif;margin-top:-100px;">
+            This server requires you to fill in a captcha to continue.
+        </p>
+        <center>
+          
+    <div>
+      
+    <form action="?" method="POST">
+      <div class="g-recaptcha"  data-callback="recaptchaCallback" data-sitekey="6Ld-ebMUAAAAANmjfFJhh2psE2_6j5F_vCBC6wrG"></div>
+      <br/>
+      <a onclick="submit()" href="#" class="myButton">Continue</a>
+    </form>
+      
+          </div>    
+          
+           
+        </center>
+
+        <br>
+
+        <center>
+
+            <span style="color:gray;font-size:.5rem;text-align:center;font-family: 'Lexend Deca', sans-serif;">&copy Ellie Discord Bot</span>
+
+        </center>
+
+    </div>
+
+</body>
